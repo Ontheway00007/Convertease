@@ -126,7 +126,7 @@
                 const extractedImages = document.getElementById('extractedImages');
                 extractedImages.innerHTML = '';
 
-                const scaleFactor = 4.0; // Set a higher scale factor for better quality images
+                const scaleFactor = 7.0; // Set a higher scale factor for better quality images
 
                 for (let i = 1; i <= pdf.numPages; i++) {
                     const page = await pdf.getPage(i);
